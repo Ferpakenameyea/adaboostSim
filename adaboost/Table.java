@@ -101,7 +101,7 @@ public class Table {
         }
         System.out.println("sorters\t\tweight");
         for (var st : this.selectedSorters) {
-            System.err.println(st.getName() + "\t\t" + st.getWeight());
+            System.out.println(st.getName() + "\t\t" + st.getWeight());
         }
         System.out.println("============");
     }
